@@ -1,0 +1,34 @@
+project_root/
+│
+├── src/
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── logging.py
+│   ├── db/
+│   │   ├── __init__.py
+│   │   └── database.py
+│   ├── models/
+│   │   └── __init__.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── nl_to_sql.py
+│   │   └── cache.py
+│   └── utils/
+│       └── __init__.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_api.py
+│   ├── test_nl_to_sql.py
+│   └── test_cache.py
+├── docs/
+│   └── api.md
+├── scripts/
+│   └── setup_db.py
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── main.py
